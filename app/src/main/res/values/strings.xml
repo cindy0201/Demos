@@ -1,0 +1,31 @@
+<resources>
+    <string name="login_user_name">User Name</string>
+    <string name="login_user_password">Password</string>
+    <string name="login_btn_text">Login</string>
+    <string name="login_forget_pwd">Forget password?</string>
+    <string name="login_loading">Loading</string>
+    <string name="login_register">Register</string>
+    <string name="login_register_ensure">Ensure</string>
+
+    <string name="app_name">FurnitureAdministration</string>
+    <string name="goods_info">Goods Info:</string>
+    <string name="goods_name">GoodsName:</string>
+    <string name="goods_model">Model:</string>
+    <string name="goods_selling_price">SellingPrice:</string>
+    <string name="goods_purchase_price">PurchasePrice:</string>
+    <string name="goods_number">Number:</string>
+    <string name="customer_info">Customer Info:</string>
+    <string name="customer_name">CustomerName:</string>
+    <string name="customer_phone">Phone:</string>
+    <string name="customer_address">Address:</string>
+    <string name="purchase_time">PurchaseTime:</string>
+    <string name="profit">Total Profit:</string>
+
+    <string name="manufacturer">Manufacturer:</string>
+
+    <string name="store_house">StoreHouse</string>
+    <string name="purchase">Purchase</string>
+    <string name="sale">Sale</string>
+    <string name="selling_record">Sale Record</string>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>

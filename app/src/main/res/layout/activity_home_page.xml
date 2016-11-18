@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/home_page">
+
+    <Button
+        android:text="@string/sale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sale"
+        android:background="@mipmap/button_background"
+        android:layout_alignTop="@+id/selling_record"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/purchase"
+        android:background="@mipmap/button_background"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/store_house"
+        android:layout_marginBottom="27dp" />
+
+    <Button
+        android:text="@string/selling_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selling_record"
+        android:background="@mipmap/button_background"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/store_house"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/store_house"
+        android:background="@mipmap/button_background"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
