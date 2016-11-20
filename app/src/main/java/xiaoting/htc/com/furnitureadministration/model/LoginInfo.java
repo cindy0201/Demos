@@ -1,6 +1,11 @@
 package xiaoting.htc.com.furnitureadministration.model;
 
-import org.json.JSONObject;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.util.Log;
+
+import static android.content.ContentValues.TAG;
+import static android.content.Context.MODE_PRIVATE;
 
 /**
  * Created by cindy on 16-11-8.
@@ -9,25 +14,24 @@ import org.json.JSONObject;
 public class LoginInfo {
     private String loginName;
     private String loginPassword;
-    private static final String JSON_NAME = "name";
-    private static final String JSON_PASSWORD = "password";
+    private Context mContext;
 
-    LoginInfo(String name, String pwd) {
+    public LoginInfo(Context context, String name, String pwd) {
         loginName = name;
         loginPassword = pwd;
+        mContext = context;
     }
 
-    public String getLoginName() {
-        return loginName;
+    public boolean registerUser(String fileName) {
+        Log.i(TAG,"registerUser...");
+        SharedPreferences share = mContext.getSharedPreferences(fileName, MODE_PRIVATE);
+        if (share.contains(loginName)) {
+            Log.i(TAG,"user repeated!");
+            return false;
+        }
+        SharedPreferences.Editor editor = share.edit();
+        editor.putString(loginName, loginPassword);
+        editor.apply();
+        return true;
     }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public JSONObject newJson() {
-
-    }
-
-
 }
