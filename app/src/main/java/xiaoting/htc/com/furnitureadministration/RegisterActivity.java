@@ -14,8 +14,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText regUserName;
     private EditText regPassword;
     private Button regEnsure;
-    private static final String prefName = "User";
-    private static final String TAG = "RegisterActivity";
+    private static final String TAG = "xiaoting-RegisterActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +35,7 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(RegisterActivity.this,"名字或密码不能为空",Toast.LENGTH_SHORT).show();
                 }else {
                     LoginInfo user = new LoginInfo(getApplicationContext(),name,password);
-                    if(user.registerUser(prefName)) {
+                    if(user.registerUser()) {
                         Toast.makeText(RegisterActivity.this,"注册成功",Toast.LENGTH_SHORT).show();
                         finish();
                     }else {

@@ -27,38 +27,22 @@
             android:background="@mipmap/login_input"
             android:orientation="vertical" >
 
-            <LinearLayout
-                android:id="@+id/userId_LinearLayout"
+            <EditText
+                android:id="@+id/login_edtId"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="end"
-                android:orientation="horizontal" >
-
-                <EditText
-                    android:id="@+id/login_edtId"
-                    android:layout_width="0dp"
-                    android:layout_height="44dp"
-                    android:layout_weight="1"
-                    android:background="@null"
-                    android:ems="10"
-                    android:maxLines="1"
-                    android:hint="@string/login_user_name"
-                    android:layout_marginTop="20dp"
-                    android:paddingStart="15dp"
-                    android:paddingEnd="15dp"
-                    android:textColorHint="#999999"
-                    android:textSize="18sp" >
-                    <requestFocus />
-                </EditText>
-
-                <ImageView
-                    android:id="@+id/login_more_user"
-                    android:layout_width="wrap_content"
-                    android:layout_height="44dp"
-                    android:layout_marginEnd="15dp"
-                    android:layout_marginTop="15dp"
-                    android:src="@mipmap/login_more_up" />
-            </LinearLayout>
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:maxLines="1"
+                android:hint="@string/login_user_name"
+                android:layout_marginTop="20dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textColorHint="#999999"
+                android:textSize="18sp" >
+                <requestFocus />
+            </EditText>
 
             <View
                 android:layout_width="match_parent"
