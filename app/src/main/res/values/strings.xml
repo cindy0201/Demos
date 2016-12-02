@@ -1,33 +1,38 @@
 <resources>
-    <string name="login_user_name">User Name</string>
-    <string name="login_user_password">Password</string>
-    <string name="login_btn_text">Login</string>
-    <string name="login_forget_pwd">Forget password?</string>
-    <string name="login_loading">Loading</string>
-    <string name="login_register">Register</string>
-    <string name="login_register_ensure">Ensure</string>
+    <string name="login_user_name">用户名：</string>
+    <string name="login_user_password">密码：</string>
+    <string name="login_btn_text">登入</string>
+    <string name="login_forget_pwd">忘记密码?</string>
+    <string name="login_loading">正在登入</string>
+    <string name="login_register">注册</string>
+    <string name="login_register_ensure">确定</string>
 
-    <string name="app_name">FurnitureAdministration</string>
-    <string name="goods_info">Goods Info:</string>
-    <string name="goods_name">GoodsName:</string>
-    <string name="goods_model">Model:</string>
-    <string name="goods_selling_price">SellingPrice:</string>
-    <string name="goods_purchase_price">PurchasePrice:</string>
-    <string name="goods_number">Number:</string>
-    <string name="customer_info">Customer Info:</string>
-    <string name="customer_name">CustomerName:</string>
-    <string name="customer_phone">Phone:</string>
-    <string name="customer_address">Address:</string>
-    <string name="purchase_time">PurchaseTime:</string>
-    <string name="profit">Total Profit:</string>
+    <string name="app_name">家具管理</string>
+    <string name="goods_info">货物信息</string>
+    <string name="goods_name">名称：</string>
+    <string name="goods_model">型号：</string>
+    <string name="goods_selling_price">售价：</string>
+    <string name="goods_purchase_price">采购价：</string>
+    <string name="goods_number">数量：</string>
+    <string name="customer_info">客户信息：</string>
+    <string name="customer_name">姓名：</string>
+    <string name="customer_phone">电话：</string>
+    <string name="customer_address">地址：</string>
+    <string name="purchase_time">购买时间：</string>
+    <string name="profit">总利润：</string>
 
-    <string name="manufacturer">Manufacturer:</string>
+    <string name="manufacturer">厂商:</string>
 
-    <string name="store_house">StoreHouse</string>
-    <string name="purchase">Purchase</string>
-    <string name="sale">Sale</string>
-    <string name="selling_record">Sale Record</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="drawer_open">true</string>
+    <string name="drawer_close">false</string>
+
+    <string-array name="group_array">
+        <item>仓库</item>
+        <item>进货管理</item>
+        <item>售出管理</item>
+        <item>销售记录</item>
+    </string-array>
 
 </resources>

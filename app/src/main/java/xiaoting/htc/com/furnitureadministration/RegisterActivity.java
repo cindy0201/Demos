@@ -14,7 +14,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText regUserName;
     private EditText regPassword;
     private Button regEnsure;
-    private static final String TAG = "xiaoting-RegisterActivity";
+    private static final String TAG = "xiaoting-Register";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
