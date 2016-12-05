@@ -26,7 +26,9 @@
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="drawer_open">true</string>
-    <string name="drawer_close">false</string>
+    <string name="drawer_close">true</string>
+
+    <string name="home_activity_drawer">操作导航</string>
 
     <string-array name="group_array">
         <item>仓库</item>

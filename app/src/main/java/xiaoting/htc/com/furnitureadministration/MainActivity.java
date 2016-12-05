@@ -1,8 +1,8 @@
 package xiaoting.htc.com.furnitureadministration;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import xiaoting.htc.com.furnitureadministration.model.LoginInfo;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     //private static String TAG = "xiaoting-MainActivity";
 
     private EditText userName_edit;

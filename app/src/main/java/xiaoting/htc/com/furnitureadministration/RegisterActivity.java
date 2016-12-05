@@ -1,7 +1,7 @@
 package xiaoting.htc.com.furnitureadministration;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import xiaoting.htc.com.furnitureadministration.model.LoginInfo;
 
-public class RegisterActivity extends AppCompatActivity {
+public class RegisterActivity extends Activity {
     private EditText regUserName;
     private EditText regPassword;
     private Button regEnsure;
